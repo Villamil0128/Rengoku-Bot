@@ -1,0 +1,24 @@
+{
+  "name": "rengokubot",
+  "version": "1.0.0",
+  "description": "Un bot de WhatsApp basado en la API de Gemini inspirado en Rengoku Kyojuro.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "gemini",
+    "ai",
+    "rengoku"
+  ],
+  "author": "Cesar Villamil",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.20.0"
+  }
+}
